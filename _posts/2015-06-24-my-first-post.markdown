@@ -80,8 +80,14 @@ header-img: "img/img2-2.jpg"
 									<p>git push origin</p>
 										<p>This may take a little while to push, but there's a lot of stuff you just added! After the push is done, go back into your browser and type in your url again (or refresh the page if it's still open) and marvel at your new website!
 	<h2 class="selection-heading">You're Done!
-
+<p>Congrats! You made a random blog about nothing! Now it's time to make it your own. Here are some tips:</p>
+<p>Read the README in the repo you downloaded from startbootstrap</p>
+<p>The folder titled "img" in your repo is where to place all of your images that you would like to be on the website! If you want to put them in the middle of the page like the example below, you must type in the following:</p>
+<textarea><a href="#">
+    <img src="{{ site.baseurl }}/img/nameoftheimage.jpg" alt="Description of the image"></textarea>
+<p>To add a little flavor text underneath type this:</p>
+<textarea><span class="caption text-muted">Place your text here!</span></textarea>
 <a href="#">
     <img src="{{ site.baseurl }}/img/img1.jpg" alt="Hunter Titan and Warlock">
 </a>
-<span class="caption text-muted">I like to play Destiny.</span>
+<span class="caption text-muted">I like to play Destiny, so here's a pic of the new DLC.</span>
