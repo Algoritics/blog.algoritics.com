@@ -83,8 +83,8 @@ header-img: "img/img2-2.jpg"
 <p>Congrats! You made a random blog about nothing! Now it's time to make it your own. Here are some tips:</p>
 <p>Read the README in the repo you downloaded from startbootstrap</p>
 <p>The folder titled "img" in your repo is where to place all of your images that you would like to be on the website! If you want to put them in the middle of the page like the example below, you must type in the following:</p>
-	<p><textarea><a href="#">
-    <img src="{{ site.baseurl }}/img/nameoftheimage.jpg" alt="Description of the image"></textarea></p>
+<textarea><a href="#">
+    <img src="{{ site.baseurl }}/img/nameoftheimage.jpg" alt="Description of the image"></textarea>
 <p>To add a little flavor text underneath type this:</p>
 <textarea><span class="caption text-muted">Place your text here!</span></textarea>
 <a href="#">
