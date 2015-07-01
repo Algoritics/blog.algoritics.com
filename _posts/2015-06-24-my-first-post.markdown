@@ -2,7 +2,7 @@
 layout:     post
 title:      "Making a GitHub Website 101"
 subtitle:   "By a scrub, for scrubs"
-date:       2015-06-24 13:40:00
+date:       2015-06-30 19:45:00
 author:     "Dylan Franco"
 header-img: "img/img2-2.jpg"
 ---
@@ -94,3 +94,7 @@ header-img: "img/img2-2.jpg"
 </a>
 <span class="caption text-muted">I like to play Destiny, so here's a pic of the new DLC.</span>
 <p>That's all for this tutorial. If you would like to learn more about Git and GitHub you can checkout this other tutorial by <a href="http://www.google.com/url?q=http%3A%2F%2Fgitimmersion.com%2Flab_01.html&sa=D&sntz=1&usg=AFQjCNEWqtc2edE91VozYDHSMzsRsc3FYA">Git Immersion</a> or one of the many resources at <a href="https://www.google.com/url?q=https%3A%2F%2Fhelp.github.com%2Farticles%2Fgood-resources-for-learning-git-and-github%2F&sa=D&sntz=1&usg=AFQjCNG3a55_gzsUmW5srX-ktUBfgyWr-w">GitHub.com</a>.</p>
+<p>Click here to download this page's code to open in Sublime Text!
+<form method="get" action="2015-06-24-my-first-post.markdown">
+<button type="submit">Download!</button>
+</form>
