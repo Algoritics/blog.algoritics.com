@@ -19,18 +19,18 @@ header-img: "img/img2-2.jpg"
 <h2 class="section-heading">Step 2: Get Set Up!</h2>
 <p>Alright, so you just installed all of this stuff, but what does it have to do with the website? Don't worry about it. You'll figure this stuff out as we go along with the tutorial.</p>
 <p>So what you should do now (if you haven't already) is set your email and name in Git. Open "Git Bash" and type in:</p>
-<p>git config --global user.name "Your Name"</p>
+<p><i>git config --global user.name "Your Name"</i></p>
 <p>user.name should say user.name, and "Your Name" is not your GitHub username. Now type this:</p>
-<p>git config --global user.email "your_email@whatever.com"</p>
+<p><i>git config --global user.email "your_email@whatever.com"</i></p>
 <p>Next, Mac users will type in:</p>
-<p>git config --global core.autocrlf input</p>
-<p>git config --global core.safecrlf true</p>
+<p><i>git config --global core.autocrlf input</i></p>
+<p><i>git config --global core.safecrlf true</i></p>
 <p>Next for Windows users:</p>
-<p>git config --global core.autocrlf true</p>
-<p>git config --global core.safecrlf true</p>
+<p><i>git config --global core.autocrlf true</i></p>
+<p><i>git config --global core.safecrlf true</i></p>
 <p>This is just setting some background stuff up that you don't have to worry about anymore. Next thing we're going to do is set up a repository in GitHub.</p>
 <p>Open up GitHub.com in your favorite browser and log into your account. In the top right corner there's a little plus sign next to a down arrow. Click on it and select "New Repository." When asked to name your repository (THIS IS REALLY IMPORTANT) name it:</p>
-<p>UserName.github.io</p>
+<p><i>UserName.github.io</i></p>
 <p>Now here is where you replace "Username" with your actual GitHub username instead. This tells GitHub that you're gonna be using this repository as a free GitHub website. Everybody gets one (but you knew that already, that's why you're here). Now we're ready to</p>
 
 <h2 class="section-heading">Step 3: The Clone Wars</h2>
@@ -38,7 +38,7 @@ header-img: "img/img2-2.jpg"
 <p>Now that you've made this repository, we need to make a repository on your computer. There are two ways to do this: Cloning is the easier way, but if you want to learn something you'll do it manually. If you're lazy you can skip to "Step 3b: Cloning." Now that the weaklings are gone, it's time for</p>
 
 <h2 class="section-heading">Step 3a: Setting up a local repository</h2>
-<p>Go into Explorer (Or Finder for Mac) and make a folder in your Desktop folder called "websiterepo" (no space or caps, it'll make it easier on you). Now go into Git Bash and type "ls" and hit enter.</p>
+<p>Go into Explorer (Or Finder for Mac) and make a folder in your Desktop folder called "websiterepo" (no space or caps, it'll make it easier on you). Now go into Git Bash and type "<i>ls</i> and hit enter.</p>
 <h2 class="section-heading">What's this list?</h2>
 <p>What it is happens to be a list of all the folders on your user account. Reading through these you'll see one that says "Desktop." What we're going to type in now is "cd Desktop" and hit enter. Try that "ls" again.</p>
 <h2 class="section-heading">WOW!</h2>
