@@ -40,22 +40,22 @@ header-img: "img/img2-2.jpg"
 <h2 class="section-heading">Step 3a: Setting up a local repository</h2>
 <p>Go into Explorer (Or Finder for Mac) and make a folder in your Desktop folder called "websiterepo" (no space or caps, it'll make it easier on you). Now go into Git Bash and type "<i>ls</i> and hit enter.</p>
 <h2 class="section-heading">What's this list?</h2>
-<p>What it is happens to be a list of all the folders on your user account. Reading through these you'll see one that says "Desktop." What we're going to type in now is "cd Desktop" and hit enter. Try that "ls" again.</p>
+<p>What it is happens to be a list of all the folders on your user account. Reading through these you'll see one that says "<i>Desktop</i>." What we're going to type in now is "<i>cd Desktop</i>" and hit enter. Try that "<i>ls</i>" again.</p>
 <h2 class="section-heading">WOW!</h2>
-<p>Hopefully your desktop isn't too cluttered, otherwise that may have been a long list. Looking through this list we see "websiterepo."  This time, we're going to type in "cd webs" and then before pushing enter we're gonna hit the TAB button. You'll see that it fills in the rest for you! Programmers are lazy people, so this one comes in handy.</p>
-<p>What you're gonna do next is type in "git status" and notice that I lied to you. This isn't a repository... Yet. Type in "git init" and watch git magically turn this folder into a repository. Next (in your browser) open the website's repository on GitHub.</p>
+<p>Hopefully your desktop isn't too cluttered, otherwise that may have been a long list. Looking through this list we see "<i>websiterepo</i>."  This time, we're going to type in "<i>cd webs</i>" and then before pushing enter we're gonna hit the <i>TAB</i> button. You'll see that it fills in the rest for you! Programmers are lazy people, so this one comes in handy.</p>
+<p>What you're gonna do next is type in "<i>git status</i>" and notice that I lied to you. This isn't a repository... Yet. Type in "<i>git init</i>" and watch git magically turn this folder into a repository. Next (in your browser) open the website's repository on GitHub.</p>
 <h2 class"section-heading"> Setting an Origin (Last step)</h2>
-<p>If you look at the top of the screen next to the "Set up in Desktop" button there is a url in a box. It should say "https://github.com/Username/Username.github.io.git" in it. In Git Bash, type "git remote add origin https://github.com/Username/Username.github.io.git" and hit enter. Now type "git remote -v" and make sure that the url next to origin is the correct one. Now type in the following two lines. Note that while typing in your GitHub Password you will not be able to see what you are typing.</p>
-<p>git commit -m "first commit"</p>
-<p>git push -u origin master</p>
-<p>All done! You're now ready to move onto the next step! Note: From Step 4 onwards, I will assume you know how to reach your repo on your computer by yourself.</p>
+<p>If you look at the top of the screen next to the "<i>Set up in Desktop</i>" button there is a url in a box. It should say "<i>https://github.com/Username/Username.github.io.git</i>" in it. In Git Bash, type "<i>git remote add origin https://github.com/Username/Username.github.io.git</i>" and hit enter. Now type "<i>git remote -v</i>" and make sure that the url next to origin is the correct one. Now type in the following two lines. Note that while typing in your GitHub Password you will not be able to see what you are typing.</p>
+<p><i>git commit -m "first commit"</i></p>
+<p><i>git push -u origin master</i></p>
+<p>All done! You're now ready to move onto the next step! Note: From Step 4 onwards, I will assume you know how to reach your repo on your computer by yourself. This just means using the "<i>cd</i>" command in Git Bash like we did before.</p>
 <h2 class="section-heading">Step 3b: Cloning"</h2>
-<p>Cloning is just a fancy way of saying we're copying this repository onto our own computers. In your repo in the browser, there should be a button that says "Quick setup in Desktop." Click on it, and it will ask you to install GitHub for your OS (I recommend doing so). After installing it, open the GitHub.exe that was put on your Desktop.</p>
-<p>After signing in, there should be a list of your GitHub repositories on the left side, but you don't have any cloned yet. There should also be a familiar plus sign with a downwards arrow at the top of the screen. Click on it and push "Clone" and select the repository that we made. Select "Desktop" and begin cloning your repo! The process should only take a few seconds. After, the repo list to the left will show the name of your repo! Also, there should be a folder on your desktop named how your repo is. Open up "Git Bash" and type in the following:</p>
-<p>cd Desktop</p>
-<p>Now type in "cd Username" and push TAB. Make sure that where I put Username you put your actual userame. It will fill in the rest of the name and then you press enter. Congratulations! You cloned a repo from GitHub! Now type in the following two lines. Note that while typing in your GitHub Password you will not be able to see what you are typing.</p>
-<p>git commit -m "first commit"</p>
-<p>git push -u origin master</p>
+<p>Cloning is just a fancy way of saying we're copying this repository onto our own computers. In your repo in the browser, there should be a button that says "<i>Quick setup in Desktop</i>." Click on it, and it will ask you to install GitHub for your OS (I recommend doing so). After installing it, open the <i>GitHub.exe</i> that was put on your Desktop.</p>
+<p>After signing in, there should be a list of your GitHub repositories on the left side, but you don't have any cloned yet. There should also be a familiar plus sign with a downwards arrow at the top of the screen. Click on it and push "<i>Clone</i>" and select the repository that we made. Select "<i>Desktop</i>" and begin cloning your repo! The process should only take a few seconds. After, the repo list to the left will show the name of your repo! Also, there should be a folder on your desktop named how your repo is. Open up "<i>Git Bash</i>" and type in the following:</p>
+<p><i>cd Desktop</i></p>
+<p>Now type in "<i>cd Username</i>" and push TAB. Make sure that where I put Username you put your actual userame. It will fill in the rest of the name and then you press enter. Congratulations! You cloned a repo from GitHub! Now type in the following two lines. Note that while typing in your GitHub Password you will not be able to see what you are typing.</p>
+<p><i>git commit -m "first commit"</i></p>
+<p><i>git push -u origin master</i></p>
 <p>All done!</p>
 <h2 class="selection-heading">Step 4: Making a Commit</h2>
 <p>Open up Sublime Text 2 and save this empty document as "index.html" into your repository folder. In Sublime Text 2, enter the following into your index.html file:</p>
