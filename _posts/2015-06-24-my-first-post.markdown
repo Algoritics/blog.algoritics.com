@@ -12,15 +12,15 @@ header-img: "img/img2-2.jpg"
 <h2 class="section-heading">Step 1: Gather Materials</h2>
 
 <p>Before you start, you're going to need a few materials:</p>
-<p>Ruby Interpretor Dev Kit: https://www.ruby-lang.org/en/installation/</p>
-<p>GitHub account: http://github.com</p>
+<p>Ruby Interpretor Dev Kit: <a href="https://www.ruby-lang.org/en/installation/" target="_blank">Ruby-lang.org</a></p>
+<p>GitHub account: <a href="http://www.github.com" target="_blank">GitHub.com</a></p>
 <p>GitHub for Windows/Mac: We'll get to this later</p>
-<p>Free Editor: http://www.sublimetext.com</p>
+<p>Free Editor: <a href="http://www.sublimetext.com" target="_blank">Sublime Text</a></p>
 <h2 class="section-heading">Step 2: Get Set Up!</h2>
 <p>Alright, so you just installed all of this stuff, but what does it have to do with the website? Don't worry about it. You'll figure this stuff out as we go along with the tutorial.</p>
 <p>So what you should do now (if you haven't already) is set your email and name in Git. Open "Git Bash" and type in:</p>
 <p>git config --global user.name "Your Name"</p>
-<p>user.name should say user.name, not your GitHub username. Same for the next thing you're about to type in. Now type this:</p>
+<p>user.name should say user.name, and "Your Name" is not your GitHub username. Now type this:</p>
 <p>git config --global user.email "your_email@whatever.com"</p>
 <p>Next, Mac users will type in:</p>
 <p>git config --global core.autocrlf input</p>
@@ -41,13 +41,3 @@ header-img: "img/img2-2.jpg"
     <img src="{{ site.baseurl }}/img/img1.jpg" alt="Hunter Titan and Warlock">
 </a>
 <span class="caption text-muted">I like to play Destiny.</span>
-
-<h2 class="section-heading">Summary of changes</h2>
-
-<p>Changed _config.yml file to have my personal settings.</p>
-
-<p>Changed tag to "Internship Blog"</p>
-
-<p>Changed banners on Home, Contact and About pages to be Destiny related.</p>
-
-<p>Updated Home, Contact, and About pages to have my own writing on them.</p>
