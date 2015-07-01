@@ -38,7 +38,7 @@ header-img: "img/img2-2.jpg"
 <p>Now that you've made this repository, we need to make a repository on your computer. There are two ways to do this: Cloning is the easier way, but if you want to learn something you'll do it manually. If you're lazy you can skip to "Step 3b: Cloning." Now it's time for</p>
 
 <h2 class="section-heading">Step 3a: Setting up a local repository</h2>
-<p>Go into Explorer (Or Finder for Mac) and make a folder in your Desktop folder called "websiterepo" (no space or caps, it'll make it easier on you). Now go into Git Bash and type "<i>ls</i> and hit enter.</p>
+<p>Go into Explorer (Or Finder for Mac) and make a folder in your Desktop folder called "websiterepo" (no space or caps, it'll make it easier on you). Now go into Git Bash and type "<i>ls</i>" and hit enter.</p>
 <h2 class="section-heading">What's this list?</h2>
 <p>What it is happens to be a list of all the folders on your user account. Reading through these you'll see one that says "<i>Desktop</i>." What we're going to type in now is "<i>cd Desktop</i>" and hit enter. Try that "<i>ls</i>" again.</p>
 <h2 class="section-heading">WOW!</h2>
