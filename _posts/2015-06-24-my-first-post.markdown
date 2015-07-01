@@ -61,23 +61,23 @@ header-img: "img/img2-2.jpg"
 <p>Open up Sublime Text 2 and save this empty document as "index.html" into your repository folder. In Sublime Text 2, enter the following into your index.html file:</p>
 <p><textarea><h1>Hello World!</h1></textarea></p>
 <p>Now save the document and return to Git Bash. While in your repository (in Git Bash) type "ls" and hit enter, you should see your index.html file there! Now what we're going to type into Bash is VERY important.</p>
-<p>git status</p>
+<p><i>git status</i></p>
 <p>What that did was allow us to see what needs to be "added" in order to be "pushed" to GitHub. Don't worry what those terms mean for now if you don't already. I'll show you how to do this all very easily. Type the following.
-<p>git add index.html</p>
-<p>If you do another "git status" you will notice that the status of your index.html has changed to "added." In Windows the color changes from red to green. Now that we have "added" index.html, we need to "commit" it and "push" it to our online repository. Type the following:</p>
-<p>git commit -m "Type a message here"</p>
-<p>git push origin</p>
-<p>Refresh your Internet Browser window and you should see that you have added your index.html to your new website! You wanna see what it looks like so far? Open a new tab in your browser and in the address bar type in "Username.github.io" and hit enter. There's your new site! Though, there isn't much here. Let's change that.</p>
+<p><i>git add index.html</i></p>
+<p>If you do another "<i>git status</i>" you will notice that the status of your index.html has changed to "added." In Windows the color changes from red to green. Now that we have "added" index.html, we need to "commit" it and "push" it to our online repository. Type the following:</p>
+<p><i>git commit -m "Type a message here"</i></p>
+<p><i>git push origin</i></p>
+<p>Refresh your Internet Browser window and you should see that you have added your index.html to your new website! You wanna see what it looks like so far? Open a new tab in your browser and in the address bar type in "<i>Username.github.io</i>" and hit enter. There's your new site! Though, there isn't much here. Let's change that.</p>
 <h2 class="selection-heading">Adding a Template</h2>
-	<p>Close up Git Bash and reopen it to quickly get back to the first directory (or type "cd .." and hit enter until it no longer shows desktop/reponame). After opening it type in the following:</p>
-		<p>gem install jekyll</p>
+	<p>Close up Git Bash and reopen it to quickly get back to the first directory (or type "<i>cd ..</i>" and hit enter until it no longer shows desktop/reponame). After opening it type in the following:</p>
+		<p><i>gem install jekyll</i></p>
 			<p>Jekyll is a GitHub based website builder that will run in the background while we make this site. It may take a while to download but don't worry, I'll be here for you. If you skipped it, you may want to go back and read Step 3a. Jekyll's done? yay! Time to download a template.</p>
-				<p>Head over to <a href="http://startbootstrap.com/template-overviews/clean-blog/" target="_blank">startbootstrap</a> and scroll down to the "Jekyll Version" and click the link. This will bring you to someone else's repository on GitHub with a lot of files in it. We need them all, so what we're gonna do is select the "Clone to Desktop" option on the right. The GitHub you downloaded should open and ask you where to save this new repository. Select the desktop and hit save.</p>
-					<p>After all of the files download, we're going to open up this new repository in our explorer (finder) and copy/paste all of these files into our own repository EXCEPT for the README. Once that is done, navigate your way back to your own repo in Git Bash and do a "git status". You'll notice that there's a lot of stuff that needs adding, but we don't have time for all of that. Instead, we're going to do the lazy thing and type in the following:</p>
-						<p>git add --all</p>
+				<p>Head over to <a href="http://startbootstrap.com/template-overviews/clean-blog/" target="_blank">startbootstrap</a> and scroll down to the "<i>Jekyll Version</i>" and click the link. This will bring you to someone else's repository on GitHub with a lot of files in it. We need them all, so what we're gonna do is select the "<i>Clone to Desktop</i>" option on the right. The GitHub you downloaded should open and ask you where to save this new repository. Select the desktop and hit save.</p>
+					<p>After all of the files download, we're going to open up this new repository in our explorer (finder) and copy/paste all of these files into our own repository EXCEPT for the README. Once that is done, navigate your way back to your own repo in Git Bash and do a "<i>git status</i>". You'll notice that there's a lot of stuff that needs adding, but we don't have time for all of that. Instead, we're going to do the lazy thing and type in the following:</p>
+						<p><i>git add --all</i></p>
 							<p>Doing another status check shows that everything's green and ready for commit. Type the following:</p>
-								<p>git commit -m "We added a template!"</p>
-									<p>git push origin</p>
+								<p><i>git commit -m "We added a template!"</i></p>
+									<p><i>git push origin</i></p>
 										<p>This may take a little while to push, but there's a lot of stuff you just added! After the push is done, go back into your browser and type in your url again (or refresh the page if it's still open) and marvel at your new website!
 	<h2 class="selection-heading">You're Done!</h2>
 <p>Congrats! You made a random blog about nothing! Now it's time to make it your own. Here are some tips:</p>
