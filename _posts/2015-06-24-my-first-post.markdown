@@ -44,7 +44,7 @@ header-img: "img/img2-2.jpg"
 <h2 class="section-heading">WOW!</h2>
 <p>Hopefully your desktop isn't too cluttered, otherwise that may have been a long list. Looking through this list we see "<i>websiterepo</i>."  This time, we're going to type in "<i>cd webs</i>" and then before pushing enter we're gonna hit the <i>TAB</i> button. You'll see that it fills in the rest for you! Programmers are lazy people, so this one comes in handy.</p>
 <p>What you're gonna do next is type in "<i>git status</i>" and notice that I lied to you. This isn't a repository... Yet. Type in "<i>git init</i>" and watch git magically turn this folder into a repository. Next (in your browser) open the website's repository on GitHub.</p>
-<h2 class"section-heading"> Setting an Origin (Last step)</h2>
+<h2 class="section-heading"> Setting an Origin (Last step)</h2>
 <p>If you look at the top of the screen next to the "<i>Set up in Desktop</i>" button there is a url in a box. It should say "<i>https://github.com/Username/Username.github.io.git</i>" in it. In Git Bash, type "<i>git remote add origin https://github.com/Username/Username.github.io.git</i>" and hit enter. Now type "<i>git remote -v</i>" and make sure that the url next to origin is the correct one. Now type in the following two lines. Note that while typing in your GitHub Password you will not be able to see what you are typing.</p>
 <p><i>git commit -m "first commit"</i></p>
 <p><i>git push -u origin master</i></p>
