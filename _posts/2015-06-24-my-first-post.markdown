@@ -6,8 +6,9 @@ date:       2015-06-30 19:45:00
 author:     "Dylan Franco"
 header-img: "img/img2-2.jpg"
 ---
+<h2 class="selection-heading">Aloha!</h2>
 
-<p>Aloha! If you are reading this, you are most likely having a hard time making a website on GitHub, and that makes me sad :(. You are, however, in the right place to learn how to be able to set up a basic blog website! This tutorial was written by a scrub, for scrubs. Note that during the tutorial, when I type two different lines of code make sure you type each of them in correctly and in order.</p>
+<p>If you are reading this, you are most likely having a hard time making a website on GitHub, and that makes me sad :(. You are, however, in the right place to learn how to be able to set up a basic blog website! This tutorial was written by a scrub, for scrubs. Note that during the tutorial, when I type two different lines of code make sure you type each of them in correctly and in order.</p>
 
 <h2 class="section-heading">Step 1: Gather Materials</h2>
 
@@ -29,6 +30,9 @@ header-img: "img/img2-2.jpg"
 <p><i>git config --global core.autocrlf true</i></p>
 <p><i>git config --global core.safecrlf true</i></p>
 <p>This is just setting some background stuff up that you don't have to worry about anymore. Next thing we're going to do is set up a repository in GitHub.</p>
+<p>Now type in the following:</p>
+<p><i>gem install jekyll</i></p>
+<p>Jekyll is a GitHub based website builder that will run in the background while we make this site. It may take a while to download but don't worry, I'll be here for you.</p>
 <p>Open up GitHub.com in your favorite browser and log into your account. In the top right corner there's a little plus sign next to a down arrow. Click on it and select "New Repository." When asked to name your repository (THIS IS REALLY IMPORTANT) name it:</p>
 <p><i>UserName.github.io</i></p>
 <p>Now here is where you replace "Username" with your actual GitHub username instead. Make sure that you spell it exactly how you spelt it during signup. This tells GitHub that you're gonna be using this repository as a free GitHub website. Everybody gets one (but you knew that already, that's why you're here). Now we're ready to</p>
@@ -69,9 +73,7 @@ header-img: "img/img2-2.jpg"
 <p><i>git push origin</i></p>
 <p>Refresh your Internet Browser window and you should see that you have added your index.html to your new website! You wanna see what it looks like so far? Open a new tab in your browser and in the address bar type in "<i>Username.github.io</i>" and hit enter. There's your new site! Though, there isn't much here. Let's change that.</p>
 <h2 class="selection-heading">Adding a Template</h2>
-	<p>Close up Git Bash and reopen it to quickly get back to the first directory (or type "<i>cd ..</i>" and hit enter until it no longer shows desktop/reponame). After opening it type in the following:</p>
-		<p><i>gem install jekyll</i></p>
-			<p>Jekyll is a GitHub based website builder that will run in the background while we make this site. It may take a while to download but don't worry, I'll be here for you. If you skipped it, you may want to go back and read Step 3a. Jekyll's done? yay! Time to download a template.</p>
+	<p>Close up Git Bash and reopen it to quickly get back to the first directory (or type "<i>cd ..</i>" and hit enter until it no longer shows desktop/reponame). Now it's time to download a template.</p>
 				<p>Head over to <a href="http://startbootstrap.com/template-overviews/clean-blog/" target="_blank">startbootstrap</a> and scroll down to the "<i>Jekyll Version</i>" and click the link. This will bring you to someone else's repository on GitHub with a lot of files in it. We need them all, so what we're gonna do is select the "<i>Clone to Desktop</i>" option on the right. The GitHub you downloaded should open and ask you where to save this new repository. Select the desktop and hit save.</p>
 					<p>After all of the files download, we're going to open up this new repository in our explorer (finder) and copy/paste all of these files into our own repository EXCEPT for the README. Once that is done, navigate your way back to your own repo in Git Bash and do a "<i>git status</i>". You'll notice that there's a lot of stuff that needs adding, but we don't have time for all of that. Instead, we're going to do the lazy thing and type in the following:</p>
 						<p><i>git add --all</i></p>
