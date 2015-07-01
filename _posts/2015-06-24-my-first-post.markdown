@@ -53,7 +53,7 @@ header-img: "img/img2-2.jpg"
 <p>Now type in "cd Username" and push TAB. Make sure that where I put Username you put your actual userame. It will fill in the rest of the name and then you press enter. Congratulations! You cloned a repo from GitHub!</p>
 <h2 class="selection-heading">Step 4: Making A Commit</h2>
 <p>Open up Sublime Text 2 and save this empty document as "index.html" into your repository folder. In Sublime Text 2, enter the following into your index.html file:</p>
-<p>"<h1>Hello World!</h1>"</p>
+<p><textarea><h1>Hello World!</h1></textarea></p>
 <a href="#">
     <img src="{{ site.baseurl }}/img/img1.jpg" alt="Hunter Titan and Warlock">
 </a>
